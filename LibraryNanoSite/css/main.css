@@ -1,0 +1,79 @@
+.profile_btn{
+    width: 150px;
+    margin:auto;
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 5px 5px;
+    border-radius: 2px 15px 15px 2px;
+    background-color: #ffbc3f;
+    color: black;
+}
+
+.logout_btn {
+  background-color: #e21414;
+  border-radius: 15px 2px 2px 15px;
+  margin-right: 0px;
+  margin-left: 10px;
+  color:white;
+  float: right;
+}
+
+button {
+  background-color: #70C5FF;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.bkground {
+  /* from https://mycolor.space/gradient?ori=to+right+top&hex=%23051937&hex2=%2313D68A&sub=1 */
+  /* background-image: linear-gradient(to right top, #051937, #00446d, #007593, #00a69c, #13d68a); */
+}
+    
+.taken, .error {
+  color:red;
+}
+ 
+.userspan {
+  /* color:white; */
+  margin-left:10px;
+}
+
+.card-img-top{
+  width: 25%;
+  display: block;
+  margin: auto;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  background-color: #4CAF50;
+  border-color:#4CAF50;
+  color: white;
+}
+
+.same-length{
+  width:125px;
+}
+
+input[type=text]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}

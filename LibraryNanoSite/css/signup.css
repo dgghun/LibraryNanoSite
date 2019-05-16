@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+form {
+	padding-top: 100px;
+}
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: #70C5FF;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:hover {
+  border: 2px solid #a4a7a8;
+}
+
+.input-field:focus {
+  border: 2px solid #70C5FF;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #70C5FF;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 12px 0 12px 0;
+  
+}
+
+img.logo {
+  width: 30%;
+  border-radius: 0%;
+}
+
+.taken, .error {
+  color:red;
+}
+
+.available {
+  color:green;
+}
